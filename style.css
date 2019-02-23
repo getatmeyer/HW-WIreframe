@@ -1,0 +1,166 @@
+* {
+    /* border: 1px solid black; */
+
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+
+}
+header, nav , footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebebeb;
+    padding: 30px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    /* height: 0px */
+    text-align: center;
+    padding: 30px;
+
+}
+.row {
+    height: 300px;
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+
+}
+
+.column {
+    margin: 10px 0 10px 0px;
+    float: left;
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+    
+}
+
+.left { 
+    height: 100%;
+    margin: 10px;
+    background-color: #ebebeb;
+    width: 490px;
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+}
+
+.right {
+    height: 100%;
+    background-color: #ebebeb;
+    width: 430px;
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+    
+}
+#article {
+    /* color: white */
+    /*background-color: black */
+    /*height: 20px */
+    /*padding-bottom: 1px */
+    /*padding-top: 1px */
+    /*text-align: center */
+    /*margin: 1px */
+    /*margin-top: 1px */
+    /*margin-right: 1px */
+    /*margin-bottom: 1px */
+    /*margin-left: 1px */
+    /*overflow: auto */
+    /*overflow: hidden */
+    /*display: table */
+    /*display: block */
+    /*display: inline */
+    /*clear: both*/
+    /*margin: 0px */
+
+}
+.article {
+    width: 400px;
+    height: 100px;
+    background: grey;
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#article-box {
+    padding: 10px;
+    background: black;
+    text-align: center;
+    /* color: white */
+    /*background-color: black */
+    /*height: 20px */
+    /*padding-bottom: 1px */
+    /*padding-top: 1px */
+    /*text-align: center */
+    /*margin: 1px */
+    /*margin-top: 1px */
+    /*margin-right: 1px */
+    /*margin-bottom: 1px */
+    /*margin-left: 1px */
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both*/
+    /*margin: 0px */
+}
+article #article {
+    /* float: left */
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    bottom: 10px;
+    margin: auto;
+    background: black;
+
+}
+#article {
+    /*float: left */
+    /*overflow: hidden */
+    /*display: block */
+    /*display: inline */
+    /*clear: both;*/
+    text-align: center;
+}
+#articleOne {
+    height: 10px;
+    width: 90px;
+}
+p {
+    background: gray;
+    padding: 10px;
+}
+#articleTwo {
+    background-color: aqua;
+}
+footer {
+    content: "";
+    position: relative;
+    clear: both;
+}
