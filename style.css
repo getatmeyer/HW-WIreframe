@@ -1,18 +1,14 @@
-* {
-    /* border: 1px solid black; */
 
-}
-
-body {
+    body {
     width: 960px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #777;
     color: #777;
     font-size: 18px;
 
 }
-header, nav , footer {
-    font-family: Arial, Helvetica, sans-serif;
+    header, nav , footer {
     background-color: #ebebeb;
     padding: 30px;
     margin: 10px;
@@ -22,144 +18,85 @@ header, nav , footer {
     color: #777;
 
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    h1 {
     font-size: 18px;
     color: #777;
-    /* height: 0px */
     text-align: center;
     padding: 30px;
+    background-color: #ebebeb;
+    font-weight: normal
 
 }
-.row {
+    .row {
     height: 300px;
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
+    
 
 }
-
-.column {
+    .column {
     margin: 10px 0 10px 0px;
     float: left;
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
     
 }
-
-.left { 
+    .left { 
     height: 100%;
     margin: 10px;
     background-color: #ebebeb;
     width: 490px;
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
+  
 }
-
-.right {
+    .right {
     height: 100%;
     background-color: #ebebeb;
-    width: 430px;
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
+    width: 439px;
     
 }
-#article {
-    /* color: white */
-    /*background-color: black */
-    /*height: 20px */
-    /*padding-bottom: 1px */
-    /*padding-top: 1px */
-    /*text-align: center */
-    /*margin: 1px */
-    /*margin-top: 1px */
-    /*margin-right: 1px */
-    /*margin-bottom: 1px */
-    /*margin-left: 1px */
-    /*overflow: auto */
-    /*overflow: hidden */
-    /*display: table */
-    /*display: block */
-    /*display: inline */
-    /*clear: both*/
-    /*margin: 0px */
-
-}
-.article {
+    .article {
+    background-color: #777;
     width: 400px;
     height: 100px;
-    background: grey;
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
     margin-top: 20px;
     margin-bottom: 10px;
 }
-#article-box {
-    padding: 10px;
-    background: black;
+    #article-box {
+    padding: 9px 9px 9px 9px;
+    background: #777;
     text-align: center;
-    /* color: white */
-    /*background-color: black */
-    /*height: 20px */
-    /*padding-bottom: 1px */
-    /*padding-top: 1px */
-    /*text-align: center */
-    /*margin: 1px */
-    /*margin-top: 1px */
-    /*margin-right: 1px */
-    /*margin-bottom: 1px */
-    /*margin-left: 1px */
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both*/
-    /*margin: 0px */
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ebebeb;
+   
 }
-article #article {
-    /* float: left */
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
-    border-style: solid;
-    border-color: red;
+    article #article {
     position: relative;
     width: 300px;
     height: 200px;
     bottom: 10px;
     margin: auto;
-    background: black;
+
 
 }
-#article {
-    /*float: left */
-    /*overflow: hidden */
-    /*display: block */
-    /*display: inline */
-    /*clear: both;*/
+    section {
+    color: #777;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+    #article {
     text-align: center;
 }
-#articleOne {
+    #articleOne {
     height: 10px;
     width: 90px;
 }
-p {
-    background: gray;
+    p {
+    background: #ebebeb;
     padding: 10px;
 }
-#articleTwo {
-    background-color: aqua;
+    #articleTwo {
+        
 }
-footer {
+    footer {
     content: "";
     position: relative;
     clear: both;
